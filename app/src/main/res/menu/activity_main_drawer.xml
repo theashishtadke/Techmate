@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Step 1-">
+        <menu>
+            <item
+                android:id="@+id/nav_event"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Attendance" />
+        </menu>
+    </item>
+    <item android:title="Step 2-">
+        <menu>
+            <item
+                android:id="@+id/nav_r1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Round 1" />
+            <item
+                android:id="@+id/nav_r2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Round 2" />
+            <item
+                android:id="@+id/nav_r3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Round 3" />
+
+            <item
+                android:id="@+id/nav_winners"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Winners" />
+        </menu>
+    </item>
+
+</menu>
